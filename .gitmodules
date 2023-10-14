@@ -1,0 +1,18 @@
+[submodule "aloe-ii/core/lib/forge-std"]
+	path = aloe-ii/core/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "aloe-ii/core/lib/v3-core"]
+	path = aloe-ii/core/lib/v3-core
+	url = https://github.com/uniswap/v3-core
+[submodule "aloe-ii/core/lib/solmate"]
+	path = aloe-ii/core/lib/solmate
+	url = https://github.com/transmissions11/solmate
+[submodule "aloe-ii/core/lib/openzeppelin-contracts"]
+	path = aloe-ii/core/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "aloe-ii/core/lib/clones-with-immutable-args"]
+	path = aloe-ii/core/lib/clones-with-immutable-args
+	url = https://github.com/aloelabs/clones-with-immutable-args
+[submodule "aloe-ii/core/lib/solady"]
+	path = aloe-ii/core/lib/solady
+	url = https://github.com/Vectorized/solady

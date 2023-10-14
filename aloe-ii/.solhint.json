@@ -1,0 +1,44 @@
+{
+  "extends": "solhint:recommended",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+
+    "code-complexity": ["error", 7],
+    "constructor-syntax": "error",
+    "custom-errors": "off",
+    "explicit-types": ["error", "explicit"],
+    "function-max-lines": "off",
+    "max-line-length": ["warn", 140],
+    "max-states-count": ["warn", 10],
+    "no-console": "error",
+    "no-empty-blocks": ["warn", { "ignoreConstructors": true }],
+    "no-global-import": "warn",
+    "no-unused-import": "error",
+    "no-unused-vars": "error",
+    "one-contract-per-file": "off",
+    "payable-fallback": "warn",
+    "reason-string": ["off", { "maxLength": 32 }],
+
+    "comprehensive-interface": "off",
+
+    "const-name-snakecase": "error",
+    "contract-name-camelcase": "error",
+    "event-name-camelcase": "error",
+    "func-name-mixedcase": "warn",
+    "func-param-name-mixedcase": "warn",
+    "immutable-vars-naming": ["error", { "immutablesAsConstants": true }],
+    "modifier-name-mixedcase": "warn",
+    "private-vars-leading-underscore": ["warn", { "strict": true }],
+    "var-name-mixedcase": "warn",
+
+    "imports-on-top": "error",
+    "ordering": "warn",
+    "visibility-modifier-order": "error",
+
+    "compiler-version": ["error", "0.8.17"],
+    "func-visibility": ["error", { "ignoreConstructors": true }],
+    "no-inline-assembly": "off",
+    "not-rely-on-time": "off"
+  }
+}
