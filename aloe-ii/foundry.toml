@@ -1,2 +1,0 @@
-# This file forces foundry to recognize remappings.txt.
-# Without it, `forge install`ing the repository won't work correctly.
