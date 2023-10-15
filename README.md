@@ -82,3 +82,25 @@ ___
 
 
 # Audit scope
+
+
+[aloe-ii @ c71e7b0cfdec830b1f054486dfe9d58ce407c7a4](https://github.com/aloelabs/aloe-ii/tree/c71e7b0cfdec830b1f054486dfe9d58ce407c7a4)
+- [aloe-ii/core/src/Borrower.sol](aloe-ii/core/src/Borrower.sol)
+- [aloe-ii/core/src/Factory.sol](aloe-ii/core/src/Factory.sol)
+- [aloe-ii/core/src/Ledger.sol](aloe-ii/core/src/Ledger.sol)
+- [aloe-ii/core/src/Lender.sol](aloe-ii/core/src/Lender.sol)
+- [aloe-ii/core/src/RateModel.sol](aloe-ii/core/src/RateModel.sol)
+- [aloe-ii/core/src/VolatilityOracle.sol](aloe-ii/core/src/VolatilityOracle.sol)
+- [aloe-ii/core/src/libraries/BalanceSheet.sol](aloe-ii/core/src/libraries/BalanceSheet.sol)
+- [aloe-ii/core/src/libraries/Exp.sol](aloe-ii/core/src/libraries/Exp.sol)
+- [aloe-ii/core/src/libraries/LiquidityAmounts.sol](aloe-ii/core/src/libraries/LiquidityAmounts.sol)
+- [aloe-ii/core/src/libraries/Log2.sol](aloe-ii/core/src/libraries/Log2.sol)
+- [aloe-ii/core/src/libraries/MulDiv.sol](aloe-ii/core/src/libraries/MulDiv.sol)
+- [aloe-ii/core/src/libraries/Oracle.sol](aloe-ii/core/src/libraries/Oracle.sol)
+- [aloe-ii/core/src/libraries/Positions.sol](aloe-ii/core/src/libraries/Positions.sol)
+- [aloe-ii/core/src/libraries/Rewards.sol](aloe-ii/core/src/libraries/Rewards.sol)
+- [aloe-ii/core/src/libraries/TickMath.sol](aloe-ii/core/src/libraries/TickMath.sol)
+- [aloe-ii/core/src/libraries/Volatility.sol](aloe-ii/core/src/libraries/Volatility.sol)
+- [aloe-ii/core/src/libraries/constants/Constants.sol](aloe-ii/core/src/libraries/constants/Constants.sol)
+- [aloe-ii/core/src/libraries/constants/Q.sol](aloe-ii/core/src/libraries/constants/Q.sol)
+
