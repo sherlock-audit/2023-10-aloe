@@ -1,0 +1,2 @@
+aloe-ii-core/=core/src/
+aloe-ii-periphery/=periphery/src/

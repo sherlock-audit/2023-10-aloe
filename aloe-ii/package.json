@@ -1,0 +1,28 @@
+{
+  "name": "aloe-ii",
+  "version": "0.0.1",
+  "repository": "git+https://github.com/aloelabs/aloe-ii.git",
+  "author": "Aloe Labs, Inc.",
+  "license": "(AGPL-3.0 OR MIT OR BSD-3-Clause)",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.2",
+    "solhint": "^3.6.2",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ]
+  },
+  "scripts": {
+    "inspect": "cd core && ./snapshot.sh && ./layout.sh",
+    "lint": "yarn prettier && yarn solhint",
+    "lint:check": "yarn prettier:check && yarn solhint:check",
+    "prettier": "yarn prettier:check --write",
+    "prettier:check": "prettier --check core/src/ periphery/src/",
+    "solhint": "yarn solhint:check --fix",
+    "solhint:check": "solhint --config ./.solhint.json core/src/*.sol core/src/**/*.sol periphery/src/*.sol periphery/src/**/*.sol"
+  }
+}
